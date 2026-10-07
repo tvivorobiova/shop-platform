@@ -1,0 +1,29 @@
+# Build
+target/
+build/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local config
+.env
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Generated
+**/generated-sources/
